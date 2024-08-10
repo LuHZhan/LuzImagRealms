@@ -15,6 +15,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Rules", "Rules", "{C2F57ECE
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{57713676-9DBE-331C-AD10-26632AC9EE0C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnLuaDefaultParamCollectorUbtPlugin", "UnLuaDefaultParamCollectorUbtPlugin", "{A6C25F74-E2DF-392C-9C27-8ED8A64821D5}"
+EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnrealBuildTool.Plugins", "UnrealBuildTool.Plugins", "{7B5CFB44-F0FB-31DF-AE62-C3C096A29A7B}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UE5", "Intermediate\ProjectFiles\UE5.vcxproj", "{B13F27FC-7E57-3400-938B-33A8A663A531}"
@@ -69,6 +71,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XLocLocalization.Automation", "D:\UE\UE_5.3\Engine\Source\Programs\AutomationTool\XLocLocalization\XLocLocalization.Automation.csproj", "{E2FBF759-20B3-3142-AE77-2BE3E6F82567}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScriptGeneratorUbtPlugin.ubtplugin", "D:\UE\UE_5.3\Engine\Plugins\ScriptPlugin\Source\ScriptGeneratorUbtPlugin\ScriptGeneratorUbtPlugin.ubtplugin.csproj", "{DE7C61C3-7CD3-38B2-ADB2-09AAE9A9B520}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnLuaDefaultParamCollectorUbtPlugin.ubtplugin", "Plugins\UnLua\Source\UnLuaDefaultParamCollectorUbtPlugin\UnLuaDefaultParamCollectorUbtPlugin.ubtplugin.csproj", "{57B8EFEF-9C51-3641-9338-4FA0F51CBF9C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpicGames.AspNet", "D:\UE\UE_5.3\Engine\Source\Programs\Shared\EpicGames.AspNet\EpicGames.AspNet.csproj", "{199FF7F9-E8F3-34CA-91E1-0848D1306393}"
 EndProject
@@ -382,6 +386,16 @@ Global
 		{DE7C61C3-7CD3-38B2-ADB2-09AAE9A9B520}.Development|Win64.Build.0 = Development|Any CPU
 		{DE7C61C3-7CD3-38B2-ADB2-09AAE9A9B520}.Shipping|Win64.ActiveCfg = Development|Any CPU
 		{DE7C61C3-7CD3-38B2-ADB2-09AAE9A9B520}.Shipping|Win64.Build.0 = Development|Any CPU
+		{57B8EFEF-9C51-3641-9338-4FA0F51CBF9C}.DebugGame Editor|Win64.ActiveCfg = Development|Any CPU
+		{57B8EFEF-9C51-3641-9338-4FA0F51CBF9C}.DebugGame Editor|Win64.Build.0 = Development|Any CPU
+		{57B8EFEF-9C51-3641-9338-4FA0F51CBF9C}.DebugGame|Win64.ActiveCfg = Development|Any CPU
+		{57B8EFEF-9C51-3641-9338-4FA0F51CBF9C}.DebugGame|Win64.Build.0 = Development|Any CPU
+		{57B8EFEF-9C51-3641-9338-4FA0F51CBF9C}.Development Editor|Win64.ActiveCfg = Development|Any CPU
+		{57B8EFEF-9C51-3641-9338-4FA0F51CBF9C}.Development Editor|Win64.Build.0 = Development|Any CPU
+		{57B8EFEF-9C51-3641-9338-4FA0F51CBF9C}.Development|Win64.ActiveCfg = Development|Any CPU
+		{57B8EFEF-9C51-3641-9338-4FA0F51CBF9C}.Development|Win64.Build.0 = Development|Any CPU
+		{57B8EFEF-9C51-3641-9338-4FA0F51CBF9C}.Shipping|Win64.ActiveCfg = Development|Any CPU
+		{57B8EFEF-9C51-3641-9338-4FA0F51CBF9C}.Shipping|Win64.Build.0 = Development|Any CPU
 		{199FF7F9-E8F3-34CA-91E1-0848D1306393}.DebugGame Editor|Win64.ActiveCfg = Development|Any CPU
 		{199FF7F9-E8F3-34CA-91E1-0848D1306393}.DebugGame Editor|Win64.Build.0 = Development|Any CPU
 		{199FF7F9-E8F3-34CA-91E1-0848D1306393}.DebugGame|Win64.ActiveCfg = Development|Any CPU
@@ -629,6 +643,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{B13F27FC-7E57-3400-938B-33A8A663A531} = {233774A8-CC9D-3FA9-86D1-90573E92B704}
 		{A5BAE1A3-7DCA-3103-B131-705BCD535A63} = {DE1F8B53-6C02-3C13-9101-A7C8D96F3FF6}
+		{A6C25F74-E2DF-392C-9C27-8ED8A64821D5} = {DE1F8B53-6C02-3C13-9101-A7C8D96F3FF6}
+		{57B8EFEF-9C51-3641-9338-4FA0F51CBF9C} = {A6C25F74-E2DF-392C-9C27-8ED8A64821D5}
 		{018B1861-EFC9-36A8-8939-F0FF0856C800} = {A338B9E2-A559-34BE-A46D-F789DD488FAD}
 		{FFFBA05A-BC22-3DA2-A811-CAD76FE88415} = {A338B9E2-A559-34BE-A46D-F789DD488FAD}
 		{0BFBE63A-B98A-3411-8EEB-8918FEC737B3} = {A338B9E2-A559-34BE-A46D-F789DD488FAD}

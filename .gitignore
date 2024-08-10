@@ -4,3 +4,8 @@
 /Saved/
 /.vs/
 /.idea/
+
+/Plugins/MyPlugin/
+/Plugins/UnLua/
+/Plugins/UnLuaExtensions/
+/Plugins/UnLuaTestSuite/
